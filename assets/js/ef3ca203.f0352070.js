@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkp2wdb_com=self.webpackChunkp2wdb_com||[]).push([[268],{5657:function(e){e.exports=JSON.parse('{"allTagsPath":"/p2wdb.com/blog/tags","name":"hello","count":2,"permalink":"/p2wdb.com/blog/tags/hello"}')}}]);

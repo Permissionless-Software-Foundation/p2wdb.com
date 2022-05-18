@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkp2wdb_com=self.webpackChunkp2wdb_com||[]).push([[291],{8003:function(o){o.exports=JSON.parse('{"permalink":"/p2wdb.com/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
