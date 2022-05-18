@@ -45,9 +45,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'CashStack',
+        title: 'P2WDB',
         logo: {
-          alt: 'CashStack',
+          alt: 'P2WDB',
           src: 'img/logo.png'
         },
         items: [
