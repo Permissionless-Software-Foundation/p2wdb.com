@@ -7,15 +7,15 @@ const filecoin = require('./static/filecoin.json')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'CashStack',
-  tagline: 'A JavaScript Framework for Sovereign Money and Data',
+  title: 'P2WDB',
+  tagline: 'Pay-to-Write Database',
   url: 'https://permissionless-software-foundation.github.io',
-  baseUrl: '/cashstack.info/',
+  baseUrl: '/p2wdb.com/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
   organizationName: 'permissionless-software-foundation', // Usually your GitHub org/user name.
-  projectName: 'cashstack.info', // Usually your repo name.
+  projectName: 'p2wdb.com', // Usually your repo name.
   trailingSlash: false,
 
   presets: [
@@ -26,13 +26,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/Permissionless-Software-Foundation/cashstack.info/tree/main'
+          editUrl: 'https://github.com/Permissionless-Software-Foundation/p2wdb.com/tree/main'
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/Permissionless-Software-Foundation/cashstack.info/tree/main'
+            'https://github.com/Permissionless-Software-Foundation/p2wdb.com/tree/main'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
@@ -59,7 +59,7 @@ const config = {
           },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/Permissionless-Software-Foundation/cashstack.info',
+            href: 'https://github.com/Permissionless-Software-Foundation/p2wdb.com',
             label: 'GitHub',
             position: 'right'
           }
@@ -99,7 +99,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/Permissionless-Software-Foundation/cashstack.info'
+                href: 'https://github.com/Permissionless-Software-Foundation/p2wdb.com'
               }
             ]
           }
