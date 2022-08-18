@@ -10,7 +10,7 @@ const config = {
   title: 'P2WDB',
   tagline: 'Pay-to-Write Database',
   url: 'https://permissionless-software-foundation.github.io',
-  baseUrl: '/p2wdb.com/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
