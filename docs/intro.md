@@ -14,4 +14,4 @@ Unlike a blockchain, the database is optimized for storing data:
 - Each entry can store up to 10 KB of data.
 - Data is guaranteed to be available for a year. After that, it naturally falls off the network.
 
-The P2WDB is built on top of the [Cash Stack](https://cashstack.info)
+The P2WDB is built on top of the [Cash Stack](https://cashstack.info). The community of developers can be contacted on [this Telegram channel](https://t.me/bch_js_toolkit).
