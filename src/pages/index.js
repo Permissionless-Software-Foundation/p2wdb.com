@@ -33,7 +33,7 @@ export default function Home () {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description='A JavaScript Stack for Sovereign Money and Communication'
+      description='A Censorship-Resistant Database'
     >
       <HomepageHeader />
       <main>

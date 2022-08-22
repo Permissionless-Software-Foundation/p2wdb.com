@@ -4,9 +4,14 @@ sidebar_position: 1
 
 # Introduction
 
-The Pay-to-Write Database (P2WDB) is an open, decentralized, peer-to-peer (p2p) database. Like a blockchain, the database has many redundant copies spread across the globe. They sync with one another using consensus rules. This makes the database very difficult to censor, and a great place to store sensitive data that may be subject to censorship. Unlike a blockchain, the database is optimized for storing data. Each entry can store up to 10 KB of data, and costs 0.01 [PSF tokens](https://psfoundation.cash).
+The Pay-to-Write Database (P2WDB) is an **censorship-resistant database**. It's similar to a blockchain, but better optimized for data. The code base is maintained by the [Permissionless Software Foundation](https://psfoundation.info).
 
-There are a handful of repositories that make up the P2WDB ecosystem:
+P2WDB is similar to blockchain in these ways:
+- The database has many redundant copies spread across the globe. They sync with one another using consensus rules. This makes the database very difficult to censor, and a great place to store sensitive data that may be subject to censorship.
+- A token is used to pay for writes, the [PSF token](https://psfoundation.cash). The cost is approximately $0.01 USD per write.
 
-- [p2wdb](https://www.npmjs.com/package/p2wdb) is a JavaScript library that can be used by web apps to read from and write to the P2WDB.
-- [ipfs-p2wdb-service](https://github.com/Permissionless-Software-Foundation/ipfs-p2wdb-service) is a node.js JavaScript app that will install and run an instance of the P2WDB.
+Unlike a blockchain, the database is optimized for storing data:
+- Each entry can store up to 10 KB of data.
+- Data is guaranteed to be available for a year. After that, it naturally falls off the network.
+
+The P2WDB is built on top of the [Cash Stack](https://cashstack.info)

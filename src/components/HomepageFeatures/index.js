@@ -31,22 +31,21 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Video Walkthroughs',
+    title: 'Software',
     // Svg: bookIcon,
     img: lightningIcon,
     description: (
       <>
         <p>
-          The written documentation is complimented by our video
-          walkthroughs. Videos start easy at the top, and get more
-          technical as you navigate down the videos page.
+          Explore the different apps and software libraries that make up the
+          P2WDB ecosystem.
         </p>
         <div className={styles.buttons}>
           <Link
             className='button button--secondary button--lg'
-            to='https://psfoundation.cash/video/' target='_blank'
+            to='/docs/software'
           >
-            Videos
+            Software
           </Link>
         </div>
       </>
