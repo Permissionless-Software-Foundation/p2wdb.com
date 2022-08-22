@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkp2wdb_com=self.webpackChunkp2wdb_com||[]).push([[827],{1948:function(o){o.exports=JSON.parse('{"allTagsPath":"/p2wdb.com/blog/tags","name":"facebook","count":1,"permalink":"/p2wdb.com/blog/tags/facebook"}')}}]);
