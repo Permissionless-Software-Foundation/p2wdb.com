@@ -5,7 +5,7 @@ sidebar_position: 1
 # Get Started
 For JavaScript developers who want to get started quickly, this page has links to code examples that can be used to read from or write to the Pay-to-Write Database (P2WDB).
 
-The code examples on this page link to interactive JSFiddles. The code in these fiddles can also be downloaded from the [psf-js-examples](#) repository too.
+The code examples on this page link to interactive [CodeSandbox](https://codesandbox.io) examples. The code in these examples can also be downloaded from the [psf-js-examples](#) repository too.
 
 ## Reading from the P2WDB
 Reading from the P2WDB is free. There are multiple ways to read data from the P2WDB, depending on your use case.
@@ -13,7 +13,21 @@ Reading from the P2WDB is free. There are multiple ways to read data from the P2
 ### Get a Page of Entries
 A 'page' of entries is defined as 20 entries. The `getPage()` function returns a page of the most recent entries. For example, the first page is the latest 20 entries. The second page will return the latest entries, starting with the 21st through the 40th latest entry.
 
-`JSFiddle example here`
+```javascript
+const { Read } = require("p2wdb");
+
+async function start() {
+  // Get the first page of results from the P2WDB
+  const read = new Read();
+  const result = await read.getPage();
+
+  // Display results in the console
+  console.log(JSON.stringify(result, null, 2));
+}
+start();
+```
+
+The code above has been implemented in [this CodeSandbox](https://codesandbox.io/s/sharp-cerf-8ko66n?file=/src/index.js). The same results can be seen visually in the [P2WDB Explorer](https://explorer.fullstack.cash/).
 
 ### Filter by App ID
 A page of entries can also be filtered by the `appId`. An App ID is an optional field that can be included during a write. These app IDs allow different applications to write data to the P2WDB, without impacting one another.
@@ -32,7 +46,7 @@ An alternative way to retrieve a single entry is with the transaction ID (TXID) 
 `JSFiddle example here`
 
 ## Writing to the P2WDB
-Up to 10KB of arbitrary data can be written to the P2WDB per entry, and the most common format uses JSON. In the example below, only BCH is needed in order to write to the database. 
+Up to 10KB of arbitrary data can be written to the P2WDB per entry, and the most common format uses JSON. In the example below, only BCH is needed in order to write to the database.
 
 `JSFiddle example here`
 
