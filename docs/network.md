@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Network
@@ -15,10 +15,10 @@ This page lists the various network URLs that provide resources for interacting 
 ## P2WDB-Pin.FullStack.cash
 [P2WDB-Pin.FullStack.cash](https://p2wdb-pin.fullstack.cash) is a REST API port to access the [P2WDB Pinning Service](https://github.com/Permissionless-Software-Foundation/p2wdb-pinning-service). This is used by the [p2wdb npm library](https://www.npmjs.com/package/p2wdb) or the [psf-bch-wallet command line wallet](https://github.com/Permissionless-Software-Foundation/psf-bch-wallet) to pin IPFS content and to upload raw JSON data to IPFS.
 
-## P2WDB-Gateway.FullStack.cash
-This is an IPFS Gateway for accessing content on the IPFS network. This URL is an efficient way for retrieving content pinned by the [P2WDB Pinning Service](https://github.com/Permissionless-Software-Foundation/p2wdb-pinning-service). Here is an example:
+## P2WDB-Gateway-678.FullStack.cash
+This is an IPFS Gateway for accessing content pinned by the P2WDB pinning service. This URL is an efficient way for retrieving content pinned by the [P2WDB Pinning Service](https://github.com/Permissionless-Software-Foundation/p2wdb-pinning-service). Here is an example:
 
-- https://p2wdb-gateway.fullstack.cash/ipfs/bafybeicvlcwv3flrwa4egmroyicvghevi6uzbd56drmoerjeguu4ikpnhe/psf-logo.png
+- https://p2wdb-gateway-678.fullstack.cash/ipfs/bafybeicvlcwv3flrwa4egmroyicvghevi6uzbd56drmoerjeguu4ikpnhe/psf-logo.png
 
 ## P2WDB-CR.FullStack.cash
 This is a [v1 Circuit Relay](https://blog.aira.life/understanding-ipfs-circuit-relay-ccc7d2a39). This provides a convenient way to punch through firewalls and share files between IPFS peers. You can connect your IPFS node to this circuit relay using one of these connection commands:
