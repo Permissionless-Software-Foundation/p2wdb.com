@@ -72,3 +72,5 @@ Note: These settings will not change the ports in the `docker-compose.yml` file.
 Writing to the P2WDB must be done by burning a quanity of [PSF Tokens](https://slp-token.fullstack.cash/?tokenid=38e97c5d7d3585a2cbf3f9580c82ca33985f9cb0845d4dcce220cb709f9538b0). However, *native payments* is an optional add-on for the P2WDB. When enabled, it allows the P2WDB instance to maintain its own wallet containing PSF tokens. This allows users to pay in the native currency (BCH or XEC) and reduces the friction of users having to aquire PSF tokens. To enable native payments, set the following configuration environment variables:
 
 - `export ENABLE_BCH_PAYMENT=1`
+
+In order for this setting to function properly, the P2WDB must have access to a wallet file that contains both PSF tokens and the native currency, otherwise the P2WDB will throw errors when users attempt to write to it.
