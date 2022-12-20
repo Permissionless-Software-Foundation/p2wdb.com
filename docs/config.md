@@ -48,7 +48,6 @@ With those environment variables set, the P2WDB will log into FullStack.cash at 
 #### FullStack Private Infrastructure
 If using [private, isolated infrastructure hosted by FullStack.cash](https://fullstack.cash/pricing), the following environment variables should be set:
 
-- `export GET_JWT_AT_STARTUP=1`
 - `export APISERVER=<REST API url provided by FullStack.cash>`
 - `export FULLSTACK_AUTH_PASS=<Authentication password provided by FullStack.cash>`
 
