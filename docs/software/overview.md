@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
-# Software
+# Overview
 The P2WDB ecosystem is composed of different software categories:
 
 - P2WDB Instances
