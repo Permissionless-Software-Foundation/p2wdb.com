@@ -5,7 +5,7 @@ sidebar_position: 1
 # Get Started
 For JavaScript developers who want to get started quickly, this page has links to code examples that can be used to read from or write to the Pay-to-Write Database (P2WDB).
 
-The code examples on this page link to interactive [CodeSandbox](https://codesandbox.io) examples. The code in these examples can also be downloaded from the [psf-js-examples](#) repository too.
+The code examples on this page link to interactive [CodeSandbox](https://codesandbox.io) examples. The code in these examples can also be downloaded from the [psf-js-examples](https://github.com/Permissionless-Software-Foundation/psf-js-examples/tree/master/p2wdb) repository too.
 
 ## Reading from the P2WDB
 Reading from the P2WDB is free. There are multiple ways to read data from the P2WDB, depending on your use case.
