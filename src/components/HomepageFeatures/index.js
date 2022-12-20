@@ -16,8 +16,7 @@ const FeatureList = [
     description: (
       <>
         <p>
-          Read about the differnet layers of the CashStack framework, and the
-          different open source projects that it is made from.
+          Learn how to install and configure your own instance of the P2WDB.
         </p>
         <div>
           <Link
@@ -31,21 +30,21 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Software',
+    title: 'Get Started',
     // Svg: bookIcon,
     img: lightningIcon,
     description: (
       <>
         <p>
-          Explore the different apps and software libraries that make up the
-          P2WDB ecosystem.
+          JavaScript code examples are available to get you started quickly,
+          reading and writing to the P2WDB.
         </p>
         <div className={styles.buttons}>
           <Link
             className='button button--secondary button--lg'
-            to='/docs/software'
+            to='/docs/get-started'
           >
-            Software
+            Get Started!
           </Link>
         </div>
       </>
